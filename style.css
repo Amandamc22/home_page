@@ -1,0 +1,165 @@
+
+  .container {
+    width: 100%;
+    min-height: 900px;
+    padding: 20px;
+    display: inline-block;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    background-image: url("assets/120.png");
+    background-position: "10%";
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.box {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url('background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(225, 225, 225, 0.2);
+}
+
+.logo {
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: .3s;
+}
+.navbar a:hover {
+    color: rgb(160, 160, 160);
+}
+
+.vl {
+  border-left: 1px solid rgb(160, 160, 160);
+  height: 15px;
+}
+
+.mr{
+  margin-right: 100px;
+}
+
+.search{
+  margin-top: 10%;
+  position: relative;
+}
+
+.textContainer{
+  margin-top: 20%;
+  position: relative;
+  left: 5%;
+}
+
+input {
+    background-color: transparent;
+    color: #FFF;
+    border-radius: 100px;
+    border-color: rgb(231, 230, 230);
+    height: 60px;
+    width: 500px;
+    right: 100px;
+    position: absolute;
+    padding: 1.2rem;
+    font-size: 20px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 40px 2px;
+  border-radius: 100px;
+  width: 30%;
+  border:2px solid #f4f4f4;
+}
+
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer nav{
+  border-bottom: 2px solid rgba(225, 225, 225, 0.2);
+}
+
+.container2 {
+  width: 100%;
+  min-height: 100px;
+  padding: 0 50px 0 50px;
+  display: inline-block;
+  background-color: white;
+  position: relative;
+}
+
+.subcontainer2 {
+  margin-top: -200px;
+  display: inline-block;
+  min-height: 100px;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #26282B;
+}
